@@ -1,0 +1,45 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+
+public class DatabaseConnection {
+    public DatabaseConnection() {
+    }
+
+    public static boolean validateLogin(String username, String password, String role) {
+        String dbURL = "jdbc:mysql://localhost:3306/securechatdb";
+        String dbUser = "root";
+        String dbPass = "theglory095";
+
+        try (Connection conn = DriverManager.getConnection(dbURL, dbUser, dbPass)) {
+            String query = "SELECT * FROM users WHERE username = ? AND password = ? AND role = ?";
+
+            try (PreparedStatement stmt = conn.prepareStatement(query)) {
+                stmt.setString(1, username);
+                stmt.setString(2, password);
+                stmt.setString(3, role);
+
+                try (ResultSet rs = stmt.executeQuery()) {
+                    if (!rs.next()) {
+                        System.out.println("❌ Invalid username or password.");
+                        return false;
+                    }
+                    System.out.println("✅ Login successful!");
+                    return true;
+                }
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+
+    public static void main(String[] args) {
+        boolean result = validateLogin("testUser", "testPassword", "student");
+        System.out.println("Login result: " + result);
+    }
+}
