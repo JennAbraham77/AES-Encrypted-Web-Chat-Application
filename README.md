@@ -3,7 +3,7 @@
 A secure real-time web chat system enabling students to communicate confidentially with counselors. Built with Java and MySQL, the app uses AES-256 encryption to protect messages and includes role-based dashboards for both students and counselors.
 
 **Features:**<br>
-🛡️ _AES-256 Encryption:_ All messages are encrypted before storage and decrypted on display.
+'*' _AES-256 Encryption:_ All messages are encrypted before storage and decrypted on display.
 
 🔐 _Login System:_ User authentication.
 
@@ -17,12 +17,12 @@ A secure real-time web chat system enabling students to communicate confidential
 
 🌐 _Java + Swing Interface:_ Custom-built GUI using Java Swing.
 
-🛠️ ** Technologies Used:** <br>
-_Frontend _ - Java Swing 
-_Backend	 _ - Java (Servlets)
-_Database _ -	MySQL
-_Security  _ -	AES Encryption, BCrypt Hashing
-_Real-time_ - Chat	Polling 
+🛠️ **Technologies Used:** <br>
+_Frontend_ - Java Swing <br>
+_Backend_ - Java (Servlets) <br>
+_Database_ -	MySQL <br>
+_Security_ -	AES Encryption, BCrypt Hashing <br>
+_Real-time_ - Chat	Polling <br>
 
 📦 **Prerequisites** <br>
 Java JDK 8+
