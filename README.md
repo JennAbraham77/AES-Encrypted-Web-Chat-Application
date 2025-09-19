@@ -17,22 +17,22 @@ A secure real-time web chat system enabling students to communicate confidential
 
 - _Java + Swing Interface:_ Custom-built GUI using Java Swing.
 
-🛠️ **Technologies Used:** <br>
-_Frontend_ - Java Swing <br>
-_Backend_ - Java (Servlets) <br>
-_Database_ -	MySQL <br>
-_Security_ -	AES Encryption, BCrypt Hashing <br>
-_Real-time_ - Chat	Polling <br>
+🛠️ **Tech Used:** <br>
+- _Frontend_ - Java Swing <br><br>
+- _Backend_ - Java (Servlets) <br><br>
+- _Database_ -	MySQL <br><br>
+- _Security_ -	AES Encryption, BCrypt Hashing <br><br>
+- _Real-time_ - Chat	Polling <br><br>
 
 📦 **Prerequisites** <br>
-Java JDK 8+
+- Java JDK 8+
 
-MySQL Server
+- MySQL Server
 
-IDE (IntelliJ, Eclipse, NetBeans, VSCode etc)
+- IDE (IntelliJ, Eclipse, NetBeans, VSCode etc)
 
 🔐 ** Encryption Overview** <br>
-AES 256-bit encryption secures messages in transit and at rest.
+* AES 256-bit encryption secures messages in transit and at rest.
 
 Java’s javax.crypto library is used for key generation and encryption/decryption.
 
