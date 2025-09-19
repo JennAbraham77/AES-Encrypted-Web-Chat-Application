@@ -15,7 +15,7 @@ A secure real-time web chat system enabling students to communicate confidential
 
 - _Message History:_ Encrypted message history stored in MySQL.
 
-- _Java + Swing Interface:_ Custom-built GUI using Java Swing.
+- _Java + Swing Interface:_ Custom-built GUI using Java Swing. <br>
 
 🛠️ **Tech Used:** <br>
 - _Frontend_ - Java Swing <br><br>
