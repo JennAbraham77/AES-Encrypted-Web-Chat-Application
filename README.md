@@ -44,22 +44,22 @@ Student: Can register/login, view counselor profiles, initiate or cancel chat re
 Counselor: Can login, view incoming requests, accept/reject chats, and communicate securely.
 
 📸 **Screenshots/ Preview:**<br><br>
-A. _Login Window_ <br>
+**A. _Login Window_** <br><br>
 ![image](https://github.com/user-attachments/assets/eae22996-dc32-4f2d-903e-683f8a8f7231)
-![image](https://github.com/user-attachments/assets/6344ddc5-7e1c-46ad-b28c-5e98d7ee50c6)
+![image](https://github.com/user-attachments/assets/6344ddc5-7e1c-46ad-b28c-5e98d7ee50c6) <br><br>
 
-B. _Student Dashboard_ <br>
+**B. _Student Dashboard**_ <br><br>
 ![image](https://github.com/user-attachments/assets/d76487f8-a4ad-42ad-9f0f-baaf69699751)
-![image](https://github.com/user-attachments/assets/9835aeee-555d-4a74-a9c6-3fed23edbcaf)
+![image](https://github.com/user-attachments/assets/9835aeee-555d-4a74-a9c6-3fed23edbcaf) <br><br>
 
-C. _Counsellor Dashboard_ <br>
+**C. _Counsellor Dashboard_** <br><br>
 ![image](https://github.com/user-attachments/assets/50060963-1c49-4a7e-b00f-8df129ffe4a9)
 ![image](https://github.com/user-attachments/assets/1c646727-134c-4f91-905a-0fcd0fc01259)
 
-D. _Chat UI Window_ <br>
+**D. _Chat UI Window_** <br><br>
 ![image](https://github.com/user-attachments/assets/8ba826d8-466e-4688-8a12-0b39411fa98e)
 ![image](https://github.com/user-attachments/assets/e8dd8fd8-9bed-4002-b82a-fa83cd80013d)
-
+<br><br>
 🤝 **Contributing** <br>
 Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
 
