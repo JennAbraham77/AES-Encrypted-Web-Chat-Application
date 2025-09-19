@@ -29,16 +29,16 @@ A secure real-time web chat system enabling students to communicate confidential
 
 - MySQL Server
 
-- IDE (IntelliJ, Eclipse, NetBeans, VSCode etc)
+- IDE (IntelliJ, Eclipse, NetBeans, VSCode etc)<br>
 
-🔐 ** Encryption Overview** <br>
+🔐 **Encryption Overview** <br>
 * AES 256-bit encryption secures messages in transit and at rest.
 
-Java’s javax.crypto library is used for key generation and encryption/decryption.
+* Java’s javax.crypto library is used for key generation and encryption/decryption.
 
-Encryption keys are stored securely on the server-side and never exposed to clients.
+* Encryption keys are stored securely on the server-side and never exposed to clients.<br><br>
 
-👥 ** User Roles** <br>
+👥 **User Roles** <br>
 Student: Can register/login, view counselor profiles, initiate or cancel chat requests, and chat securely.
 
 Counselor: Can login, view incoming requests, accept/reject chats, and communicate securely.
