@@ -43,7 +43,7 @@ Student: Can register/login, view counselor profiles, initiate or cancel chat re
 
 Counselor: Can login, view incoming requests, accept/reject chats, and communicate securely.
 
-📸 Screenshots
+📸 Screenshots/ Preview:<br>
 A. Login Window
 ![image](https://github.com/user-attachments/assets/eae22996-dc32-4f2d-903e-683f8a8f7231)
 ![image](https://github.com/user-attachments/assets/6344ddc5-7e1c-46ad-b28c-5e98d7ee50c6)
